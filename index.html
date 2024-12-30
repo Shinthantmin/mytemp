@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tempreture Project</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="" id="myForm">
+      <h1>Temprature Convertor</h1>
+      <input type="number" id="textBox" value="0" /> <br />
+
+      <button
+        class="convertBtn"
+        type="button"
+        id="toFahrenheit"
+        name="unit"
+        onclick="convert()"
+      >
+        Celsius ➡ Fahrenheit
+      </button>
+      <br />
+      <button
+        class="convertBtn"
+        type="button"
+        id="toCelsius"
+        name="unit"
+        onclick="convert()"
+      >
+        Fahrenheit ➡ Celsius
+      </button>
+      <br />
+
+      <p id="result">Select a unit</p>
+      <br />
+      <button type="button" id="resetBtn" class="reBtn">reset</button>
+
+      <h6>Code By Shin Thant Min</h6>
+    </form>
+
+    <script src="main.js" defer></script>
+  </body>
+</html>
